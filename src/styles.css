@@ -1,0 +1,259 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  h2 {
+    color: #007acc;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #005fa3;
+    margin-bottom: 10px;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    background-color: #007acc;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #ffdd57;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Flex Container for Table and Form */
+  .supplier-flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .supplier-table-container {
+    flex: 2;
+  }
+  
+  .supplier-form-container {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005fa3;
+  }
+  
+  select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Supplier Table Styling */
+  .supplier-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .supplier-table th,
+  .supplier-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .supplier-table th {
+    background-color: #007acc;
+    color: white;
+  }
+  
+  .supplier-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .supplier-table tr:hover {
+    background-color: #e8f4ff;
+  }
+  
+  .supplier-table td {
+    white-space: nowrap;
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #e8e8e8;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  /* Report Styles */
+  .report-item {
+    background-color: #e8f4ff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+  }
+  
+  /* Success & Error Messages */
+  .success-message {
+    color: green;
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .supplier-flex {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+    
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .supplier-table-container,
+    .supplier-form-container {
+      width: 100%;
+    }
+  }
+
+  .multi-select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    height: 100px;
+  }
+  
+  .sizes-selection {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .size-button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: #e0e0e001;
+    transition: background-color 0.3s;
+  }
+  
+  .size-button.selected {
+    background-color: #007acc;
+    color: black;
+    border-color: #007acc;
+  }
+  
+  .size-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .filter-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .report-table th,
+  .report-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .report-table th {
+    background-color: #007acc;
+    color: white;
+  }
+  
+  .report-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }

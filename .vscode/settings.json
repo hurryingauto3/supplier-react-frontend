@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/53ddd644-7c38-47ea-bdfc-aa5de81ef3f1/resourceGroups/supplier-flask-app_group/providers/Microsoft.Web/sites/supplier-react-app",
+    "appService.deploySubpath": "."
+}
